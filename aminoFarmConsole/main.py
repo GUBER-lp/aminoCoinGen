@@ -167,9 +167,9 @@ class AminoClient:
 
     def login(self, email: str, password: str):
         data = json.dumps({
-            "email": email,
+            "goliaf_irland@mail.ru": email,
             "v": 2,
-            "secret": f"0 {password}",
+            "secret": f"0 {robo4505}",
             "deviceID": self.deviceId,
             "clientType": 100,
             "action": "normal",
